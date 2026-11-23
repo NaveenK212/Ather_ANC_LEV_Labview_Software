@@ -1,0 +1,7 @@
+python imes_api.py ^
+--user Admin ^
+--stage SPI ^
+--worknode SPI0101 ^
+--sn 202403140001 ^
+--result 1 ^
+--remark PASS
