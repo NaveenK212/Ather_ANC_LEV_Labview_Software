@@ -1,15 +1,26 @@
-﻿SL No	Test Name	             Expected	LSL	USL	Unit Enable/Disable  	Comparison
-1,	Ensure all the connections are OK,	NA,	NA,	NA,	V,	TRUE,	   in-range?
-2,	Turn ON 230V AC Input, v 	Done,	NA,	NA,	NA,	TRUE,	           equal to?
-3,	Earth Detection,	        0,	NA,	NA,	V,	TRUE,	           equal to?
-4,	Load the Firmware,              28V,   -0.5,	0.,	V,	TRUE,              in-range?
-5,	Unlock Opensesame & Stop console Logs,	11.45,	11.3,	11.85,	V,	TRUE,      in-range?
-6,	Reverse Voltage Recovery,              11.45,	11.3,	11.85,	V,	TRUE,	   in-range?
-7,	Read Firmware,                  11.69,	11.3,	11.85,	V,	TRUE,              in-range?
-8,	Read & Write PCB Serial No,     11.68,	11.3,	11.85,	V,	TRUE,	           in-range?
-9,	Emergancy Switch Check,         11.67,	11.3,	11.85,	V,	TRUE, 	           in-range?
-10,	Update WIFI credential,         11.65,	11.3,	11.85,	V,      TRUE,	           in-range?
-11,	Unlock Opensesame & Stop console Logs,11.64,	11.3,   11.85,	V,	TRUE,      in-range?
-12,	WIFI State,                     11.63,	11.3,	11.85,	V,	TRUE,	           in-range?
-13,	WIFI SSID,                      11.63,	11.3,	11.85,	V,	TRUE,              in-range?
-14,	Board revision,          	Done,	NA,	NA,	NA,	TRUE, 	           equal to?
+﻿SL No	Test Name	                        Expected	LSL	USL	Unit Enable/Disable  	       Comparison
+1,	Ensure all the connections are OK,	NA,	        NA,	NA,	V,	TRUE,	                in-range?
+2,	Turn ON 230V AC Input, v 	        Done,	        NA,	NA,	NA,	TRUE,	                equal to?	
+3,	Load the Firmware,                      PASS,           NA,	NA,	V,	TRUE,                   equal to?
+4,	Unlock Opensesame & Stop console Logs,	PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+5,      Earth Detection,	                0,	        NA,	NA,	V,	TRUE,	                equal to?
+6,	Read Firmware,                          PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+7,	Read & Write PCB Serial No,             PASS,	        NA,	NA,	V,	TRUE,	                equal to?
+8,	Emergancy Switch Check,                 PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+9,	Update WIFI credential,                 PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+10,     Reboot,                                 PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+11,	Unlock Opensesame & Stop console Logs,  PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+12,	WIFI State,                             Connected,	11.3,	11.85,	V,	TRUE,	                in-range?
+13,	WIFI SSID,                              castor,	        11.3,	11.85,	V,	TRUE,                   in-range?
+14,	Board revision,          	        Done,	        NA,	NA,	NA,	TRUE, 	                equal to?
+15,	NTC Temp,          	                NA,	        15,	45,	V,	TRUE, 	                in-range?
+16,	ADC RCD Current,          	        NA,	        11.5,	12.5,	V,	TRUE, 	                in-range?
+17,	5V Output volatge,          	        NA,	        11.5,	12.5,	V,	TRUE, 	                in-range?
+18,	3.3V Output volatge,          	        NA,	        11.5,	12.5,	V,	TRUE, 	                in-range?
+19,	D+M Sense,          	                PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+20,	Output Weld Sense,          	        1,	        NA,	NA,	V,	TRUE,                   equal to?
+21,     FW Power Reset,                         PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+22,	Unlock Opensesame & Stop console Logs,  PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+23,	Reset Switch Check,                     PASS,	        NA,	NA,	V,	TRUE,                   equal to?
+
+

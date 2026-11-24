@@ -1,0 +1,6 @@
+esptool write_flash 0x0 filename.hex
+
+Make sure you have python installed and do 
+pip install esptool 
+before flashing
+  

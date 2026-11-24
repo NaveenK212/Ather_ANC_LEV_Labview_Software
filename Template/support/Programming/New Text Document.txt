@@ -1,0 +1,2 @@
+python flash.py COM3
+python flash.py COM3 "D:\Firmware\new image.hex"
